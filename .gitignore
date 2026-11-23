@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pem
+*.enc
+email_aberto.txt
+build/
+dist/
+*.spec
