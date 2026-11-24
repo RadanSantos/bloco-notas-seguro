@@ -6,6 +6,7 @@ Este projeto é uma aplicação desktop desenvolvida em Python que permite cript
 - Interface gráfica amigável (Tkinter) estilo bloco de notas.
 - Criptografia híbrida de alta segurança.
 - Suporte para anexos (compactação em ZIP em memória antes da criptografia).
+
 - Geração automatizada de chaves públicas e privadas.
 
 ## 🛠️ Tecnologias Utilizadas
