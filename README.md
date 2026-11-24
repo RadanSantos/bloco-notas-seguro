@@ -27,3 +27,15 @@ Durante o desenvolvimento, enfrentei e resolvi os seguintes problemas:
 - **Manipulação em Memória:** Para não deixar rastros no disco rígido, utilizei `io.BytesIO` e `zipfile` para compactar as fotos e o texto na memória RAM antes de criptografar.
 - **Erros de SSL no Pip:** Tive que contornar bloqueios de certificados de segurança da minha rede durante a instalação da biblioteca `cryptography`.
 - **Gerenciamento de Chaves:** Compreensão prática da diferença entre chaves públicas (compartilháveis) e privadas (segredo absoluto).
+
+## 🧪 Testes de Qualidade e Segurança (QA)
+Para garantir a integridade e a privacidade dos dados, o projeto conta com uma suíte de testes automatizados usando a biblioteca `unittest`.
+
+Os testes cobrem:
+- **Fluxo de Ida e Volta:** Verifica se a mensagem criptografada pode ser lida corretamente com a chave certa.
+- **Acesso Negado:** Simula uma tentativa de invasão usando uma chave privada falsa (o sistema deve bloquear).
+- **Adulteração de Arquivo:** Altera intencionalmente um único bit do arquivo `.enc` para provar que o algoritmo AES-GCM detecta a fraude e impede a leitura.
+
+**Como rodar os testes no seu computador:**
+```bash
+python test_seguranca.py
