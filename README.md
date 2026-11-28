@@ -39,3 +39,13 @@ Os testes cobrem:
 **Como rodar os testes no seu computador:**
 ```bash
 python test_seguranca.py
+
+## 📄 Licenciamento
+
+Este projeto é distribuído sob **Licença Dupla (Dual Licensing)**:
+*   **MIT License:** Para uso livre, permissivo e flexível (ideal para uso pessoal e educacional).
+*   **GNU GPLv3:** Para garantir que quaisquer modificações ou derivações deste projeto permaneçam de código aberto.
+
+Você pode escolher a licença que melhor se adequar às suas necessidades. Consulte os arquivos `LICENSE` e `LICENSE-GPL` para mais detalhes.
+
+**⚠️ Aviso Ético:** O autor não compactua com o uso deste software para atividades ilegais, como extorsão ou invasão de privacidade. O uso é de inteira responsabilidade do usuário.
